@@ -1,5 +1,6 @@
 package api;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -12,6 +13,7 @@ public interface DeviceService {
      * @param id 设备记录ID
      * @return 设备记录
      */
+    @Resource
     String selectHeiyeDeviceById(Long id);
 
     /**
