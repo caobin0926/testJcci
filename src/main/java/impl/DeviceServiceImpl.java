@@ -20,6 +20,7 @@ public class DeviceServiceImpl implements DeviceService {
 
     @Override
     public List<String> selectHeiyeDeviceList(String heiyeDevice) {
+        System.out.println("selectHeiyeDeviceById");
         return null;
     }
 
