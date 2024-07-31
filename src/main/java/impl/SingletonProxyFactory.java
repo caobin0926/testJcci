@@ -48,7 +48,7 @@ public class SingletonProxyFactory {
     @Bean
     public HyUserIDLService hyUserIDLService() {
         return new DubboClientBuilder<>(HyUserIDLService.class)
-                .timeoutInMillis(3000)
+                .timeoutInMillis(5000)
                 .sync()
                 .retries(0)
                 .build();
