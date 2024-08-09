@@ -835,7 +835,6 @@ public class PushAdapterManager {
             liveSoundWaveBuilder.setResourceUrl(using.getSvgaMaterialUrl());
             builder.setStructLiveSoundWave(liveSoundWaveBuilder.build());
         }
-        builder.setRoomJockey(guestUserId == njId ? 2 : 1);
         return builder.build();
     }
 
