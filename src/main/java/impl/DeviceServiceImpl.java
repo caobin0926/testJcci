@@ -15,7 +15,8 @@ public class DeviceServiceImpl implements DeviceService {
     @Override
     public String selectHeiyeDeviceById(Long id) {
         System.out.println("selectHeiyeDeviceById");
-        return null;
+        String name = "abc";
+        return name;
     }
 
     @Override
